@@ -50,8 +50,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
+  if won?(board) == "X"
     return "X"
-  else "O"
   end
 end
